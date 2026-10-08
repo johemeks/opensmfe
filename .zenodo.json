@@ -1,0 +1,12 @@
+{
+  "title": "OpenSmFe: an open, processing-aware database of samarium-iron(-nitrogen) permanent magnet properties",
+  "upload_type": "dataset",
+  "version": "0.1.0",
+  "creators": [
+    {"name": "Ejeka, Joshua Chukwuemeka", "affiliation": "Independent Researcher"}
+  ],
+  "description": "<p>OpenSmFe is an open database of published measurements on samarium-iron(-nitrogen) permanent magnets. Each value records the composition, processing route (alloy route, milling, melt spinning, anneal, nitriding, consolidation), phase outcome, sample form and measurement temperature, together with the value as published, its SI conversion, a verbatim evidence quote and its location in the source paper, and an A/B/C comparability grade with written reasons. Version 0.1.0 is a seed release: 21 values from 14 samples in 6 open-access papers, each verified by the author against its source. Code (MIT) rebuilds the database from the raw extraction files.</p>",
+  "license": "cc-by-4.0",
+  "keywords": ["permanent magnets", "Sm2Fe17N3", "samarium iron nitride", "rare-earth magnets", "materials database", "processing-structure-property", "coercivity"],
+  "access_right": "open"
+}

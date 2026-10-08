@@ -1,0 +1,5 @@
+# OpenSmFe raw-input provenance. One line per raw file: name | rows | bytes | SHA-256.
+# Per-paper URLs and access dates are inside sources_*.csv.
+sources_v0.1.csv | 6 rows | 2945 bytes | sha256:e99da727f9713f0f68d616c859d31c0b96344b560883d899f242c6dbbf3495b0
+extractions_v0.1.csv | 21 rows | 10797 bytes | sha256:b0b628c0d095476d77e0c5589a4dcc53bd121f4124c03662f1f69d9dce26e05f
+queue_v0.1.csv | 18 rows | 3360 bytes | sha256:7795be15e1749c648bb32643840b89d34280779852efef9be33eaa2943fd1b7e

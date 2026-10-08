@@ -1,0 +1,36 @@
+OpenSmFe QA report (v0.1)
+Plain-language note: counts, impossible-value checks, and the rows picked for hand-checking.
+
+Sources: 6   Samples: 14   Measurements: 21
+Measurements by property: BHmax=2, Br=1, Hc_unspecified=8, Hcj=3, Mr=5, Tc=2
+Comparability grades: A=0, B=19, C=2
+Verification status: verified=21
+
+CHECK 1. Value in range (SI units)
+  pass
+CHECK 2. Published number appears in its own evidence quote
+  pass
+CHECK 3. Duplicate measurement ids
+  pass
+CHECK 4. Physics consistency within a sample
+  ZHENG2022-a: (BH)max 167.6 kJ/m3 vs Br^2/4mu0 limit 203.7 kJ/m3 -> ok
+CHECK 5. Required sample fields present
+  pass
+CHECK 6. Fields still carrying a verify marker (must be zero before release)
+  opensmfe_measurements.csv: 0
+  opensmfe_samples.csv: 0
+  opensmfe_sources.csv: 0
+
+PROBLEMS
+  none
+
+SPOT CHECKS for the author (also in docs/VERIFY_CHECKLIST.md)
+  [extreme] HIRAYAMA2025-a-Hc_unspecified: 0.056 MA/m (Section 3, Fig. 5)
+  [extreme] LIANG2023-c-Hcj@10K: 36.1 kOe (Abstract)
+  [extreme] LIANG2023-b-BHmax: 35 MGOe (Abstract)
+  [extreme] SAITO2024-g-Tc: 740 K (Results, Fig. 3b)
+  [random, seed 2027] SAITO2024-b-Hc_unspecified: 10.3 kOe (Results, Fig. 6)
+  [random, seed 2027] ZHENG2022-a-Br: 10.12 kG (Results (Fig. 5); Conclusions)
+  [random, seed 2027] SAITO2024-a-Mr: 75.3 emu/g (Results, Fig. 5)
+  [random, seed 2027] SAITO2024-a-Hc_unspecified: 12.4 kOe (Results, Fig. 5)
+  [random, seed 2027] LIANG2023-a-Hcj: 17.5 kOe (Abstract)

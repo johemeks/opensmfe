@@ -1,0 +1,19 @@
+doi,title,journal,year,decision,reason
+10.1016/j.heliyon.2024.e31463,TbCu7-type Sm-Fe(-N) powder synthesized by low-temperature reduction-diffusion process using the Li-Ca reductant,Heliyon,2024,to extract,publisher site rate-limited the web reader on 2026-10-08
+10.1002/eng2.12478,3D printing of anisotropic Sm-Fe-N nylon bonded permanent magnets,Engineering Reports,2021,to extract,
+10.1051/epjconf/20134006006,Ultrafine Sm-Fe-N Particles Prepared by Planetary Ball Milling,EPJ Web of Conferences,2013,to extract,EPJ page not readable by web reader on 2026-10-08
+10.1063/1.5006225,Effects of titanium and zirconium addition on magnetic properties of Sm2Fe17 melt-spun ribbons,AIP Advances,2018,to extract,AIP full text not readable by web reader; needs manual or PDF route
+10.1016/j.jmrt.2023.11.144,Preparation of ultrafine Sm2Fe17N3 magnetic powders without ball milling,J. Mater. Res. Technol.,2023,to extract,
+10.1063/1.4973396,Magnetic properties of Sm-Fe-N bulk magnets produced from Cu-plated Sm-Fe-N powder,AIP Advances,2017,to extract,
+10.1063/1.4975052,Improvement of magnetization of submicron-sized high coercivity Sm2Fe17N3 powder by using hydrothermally synthesized sintering-tolerant cubic hematite,AIP Advances,2017,to extract,abstract has no numbers; needs full text
+10.1063/1.4967364,Anisotropic Sm2Fe17N3 sintered magnets without coercivity deterioration,AIP Advances,2016,to extract,abstract has no numbers; needs full text
+10.1063/1.4944077,Investigation of optimal route to fabricate submicron-sized Sm2Fe17 particles with reduction-diffusion method,AIP Advances,2016,to extract,
+10.1063/9.0000819,Bi-modal particle size distribution for high energy product hybrid Nd-Fe-B/Sm-Fe-N bonded magnets,AIP Advances,2024,extract Sm-Fe-N-only samples,hybrid magnets out of scope; pure Sm-Fe-N reference samples in scope
+10.1063/1.4790657,Curie temperature rising by fluorination for Sm2Fe17,AIP Advances,2013,extract parent Sm2Fe17 only,fluorinated interstitial compounds out of v1.0 scope
+10.1155/2017/7648373,Magnetic Properties of Sm-Fe-N/Co-B Composite Magnets Prepared by Chemical Reduction,Adv. Condens. Matter Phys.,2017,exclude,soft/hard composite; no values for the Sm-Fe-N powder alone
+10.1063/1.4944519,Exchange coupling between soft magnetic ferrite and hard ferromagnetic Sm2Fe17N3 in ferrite/Sm2Fe17N3 composites,AIP Advances,2016,extract Sm-Fe-N-only samples,composites out of scope
+10.1063/9.0000629,"Magnetic properties of (Sm,Zr)(Fe,Co)10-xTix (x = 0, 0.5, 1) bulk magnets",AIP Advances,2024,defer to v1.1,ThMn12-related composition family (scope question 3)
+10.3390/inorganics13100322,Progress and Prospect of Sm-Fe-N Magnets,Inorganics,2025,mine for leads,review: values are secondary; use reference list to find primary papers
+10.1039/D4TC02797C,Composition and microstructural control of Sm2Fe17N3 powders,J. Mater. Chem. C,2024,mine for leads,review (secondary values); open-access status unconfirmed
+10.3390/cmd6030042,Electrochemical Behaviour of Nd-Fe-B and Sm-Fe-N Polymer-Bonded Magnets,Corrosion and Materials Degradation,2025,exclude,corrosion study; no magnetic property values expected (not yet opened)
+OSTI 2571464,Minimizing Particle Aggregation in Sm2Fe17N3 Powders: A CaO-assisted reduction-diffusion approach,DOE public-access manuscript,2025,to extract,OSTI blocks automated readers; download PDF manually

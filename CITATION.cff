@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use OpenSmFe, please cite it as below, and cite the original papers for any values you use."
+type: dataset
+title: "OpenSmFe: an open, processing-aware database of samarium-iron(-nitrogen) permanent magnet properties"
+version: "0.1.0"
+date-released: "2026-10-08"
+authors:
+  - family-names: "Ejeka"
+    given-names: "Joshua Chukwuemeka"
+    email: "jejeka@uwyo.edu"
+    affiliation: "Independent Researcher"
+license: CC-BY-4.0
+repository-code: "https://github.com/johemeks/opensmfe"
+keywords:
+  - permanent magnets
+  - Sm2Fe17N3
+  - samarium iron nitride
+  - rare-earth magnets
+  - materials database
+  - processing-structure-property
+  - coercivity

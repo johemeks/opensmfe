@@ -1,0 +1,105 @@
+# Glossary
+
+Plain definitions of the terms you will see in this project. Copy this file into each project as `docs/GLOSSARY.md`.
+
+**Abstract.** A short summary at the top of a paper, usually 150 to 300 words.
+
+**Archive (release archive).** A single zip file containing a frozen copy of the whole project at one point in time.
+
+**arXiv, medRxiv, bioRxiv, engrXiv.** Free public websites where researchers post papers before or alongside journal review. Each covers different fields.
+
+**Citation file (CITATION.cff).** A small file that tells people and software exactly how to cite your project.
+
+**Codebook.** A list explaining every column in your data: what it means, its units, and where it came from.
+
+**Commit.** A saved snapshot of changes to the project, with a note describing what changed.
+
+**Dataset.** An organized table (or set of tables) of information, like a spreadsheet.
+
+**Docket.** The public file for a proposed government rule. Comments submitted to it become part of the official record.
+
+**DOI (Digital Object Identifier).** A permanent link and ID for your work, like a library call number that never changes. It looks like `10.5281/zenodo.1234567`.
+
+**Draft stamp.** A "draft" label on every figure and document until you have checked everything. It is removed only after your approval.
+
+**Endorsement (arXiv).** A one-time approval some arXiv categories require from an existing author before your first post there.
+
+**Figure.** A chart, graph, or map in a paper or report.
+
+**GitHub.** A website that stores project files publicly and keeps every past version.
+
+**License.** The terms under which others may reuse your work. CC BY 4.0 means anyone can reuse it if they credit you. MIT is a common equivalent for code.
+
+**Limitations.** An honest list of what the project cannot tell you and where its data is weak. Every credible project has one.
+
+**Metadata.** Information about your work: title, authors, description, keywords, license.
+
+**Open data.** Information published free for anyone to use, usually by governments or research bodies.
+
+**ORCID iD.** A free, permanent ID number for researchers, so your work is linked to you even if your name is spelled differently somewhere. It looks like `0000-0002-1825-0097`.
+
+**Pipeline.** The set of scripts that downloads the data, cleans it, and produces the results, in order. Running it again gives the same results.
+
+**Preprint.** A paper posted publicly before peer review.
+
+**Provenance.** A record of exactly where each piece of data came from and when it was downloaded.
+
+**Public comment.** Written feedback submitted to a government agency on a proposed rule, during a set comment period.
+
+**QA (quality assurance) report.** A file listing the checks run on the data: counts, matches, and anything unusual.
+
+**README.** The front page of a project. It explains what the project is and how to use it.
+
+**Release.** A named, frozen version of the project (for example v1.0) that can be cited.
+
+**Reproduce.** To re-run the project from scratch and get the same numbers. It proves the results are real.
+
+**Repository (repo).** The project folder that lives online, usually on GitHub, with its full history.
+
+**Sandbox.** A practice version of a website (like Zenodo's) for testing before doing it for real.
+
+**Script.** A small program file that does one job, such as downloading data.
+
+**Spot check.** Picking a few rows by hand and comparing them to the original source.
+
+**Stats file.** A file the pipeline writes with every number used in the paper, so the text always matches the data.
+
+**Token.** A temporary password that lets Claude upload to GitHub or Zenodo on your behalf. You can cancel it at any time.
+
+**Tracking number.** The receipt ID you get after submitting a public comment. Save it.
+
+**Vintage.** The year or edition of a data source.
+
+**Zenodo.** A free, permanent research archive run by CERN. It gives your project a DOI.
+
+## Magnet terms used in OpenSmFe
+
+**Sm-Fe-N (samarium-iron-nitride).** A family of permanent-magnet materials. Nitrogen is pushed into a samarium-iron alloy, which makes it a much stronger, more heat-tolerant magnet. It uses less rare earth than the neodymium magnets in most motors.
+
+**Sm2Fe17N3 (the "2:17" phase).** The main crystal form in this family: 2 samarium atoms, 17 iron and about 3 nitrogen. The 2:17 is a recipe ratio.
+
+**TbCu7-type (the "1:7" phase).** A disordered crystal form that usually forms when the alloy is cooled very fast, as in melt spinning. It is magnetically similar but not identical to 2:17.
+
+**Phase.** A distinct crystal form inside a material. One sample can contain several, such as the magnetic 2:17 plus some unwanted soft iron (alpha-Fe).
+
+**alpha-Fe (α-Fe).** Plain iron crystals. In these magnets it is usually an impurity that weakens the magnet.
+
+**Coercivity (Hc, or Hcj / iHc).** How hard it is to demagnetize the magnet. Higher is better. Reported in kOe, kA/m or T. Hcj ("intrinsic") is the version this database uses as its main value.
+
+**Remanence (Br, or Mr).** How much magnetism stays after the magnetizing field is removed. Reported in T, kG or emu/g.
+
+**Saturation magnetization (Ms).** The most magnetism the material can hold in a very strong field. Reported in T, emu/g or A·m²/kg.
+
+**Maximum energy product ((BH)max).** The single best summary of magnet strength, the "horsepower" of a magnet. Reported in MGOe or kJ/m³ (1 MGOe = 7.958 kJ/m³).
+
+**Curie temperature (Tc).** The temperature above which the material stops being a magnet. Reported in K or °C.
+
+**Processing route.** The steps used to make the sample: how the alloy was made (arc melting, strip casting, reduction-diffusion), then milling (grinding), melt spinning (squirting molten metal onto a spinning wheel to freeze it fast), annealing (heat treatment), and nitriding (heating in nitrogen or ammonia gas so nitrogen enters the crystal).
+
+**Sample form.** What was actually measured: loose powder, aligned powder, bonded magnet (powder in resin), sintered or bulk magnet, ribbon, or thin film. The same material gives different numbers in different forms.
+
+**Comparability flag.** A grade (A, B or C) on every row saying how safely that number can be compared with others. It is based on measurement temperature, sample form, units, and whether the paper said enough about the sample.
+
+**Text-mined database.** A database built by software that reads thousands of papers and pulls out numbers automatically. It is fast but makes mistakes, which is why OpenSmFe checks against one rather than copying from it.
+
+**emu/g, kOe, MGOe.** Older (CGS) units still common in magnet papers. OpenSmFe keeps the number exactly as published and adds a converted SI (international system) value next to it.

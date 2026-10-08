@@ -1,0 +1,41 @@
+{
+  "version": "v0.1",
+  "draft": true,
+  "n_sources": 6,
+  "n_samples": 14,
+  "n_measurements": 21,
+  "n_by_property": {
+    "Hc_unspecified": 8,
+    "Mr": 5,
+    "Tc": 2,
+    "Hcj": 3,
+    "BHmax": 2,
+    "Br": 1
+  },
+  "n_by_grade": {
+    "A": 0,
+    "B": 19,
+    "C": 2
+  },
+  "n_by_verification": {
+    "verified": 21
+  },
+  "n_verify_tags": 0,
+  "n_quote_mismatch": 0,
+  "n_problems": 0,
+  "hc_ambient_min_kAm": 56.0,
+  "hc_ambient_max_kAm": 1393.0,
+  "n_meas_T_not_stated": 16,
+  "n_non_Tc": 19,
+  "spot_checks": [
+    "HIRAYAMA2025-a-Hc_unspecified",
+    "LIANG2023-c-Hcj@10K",
+    "LIANG2023-b-BHmax",
+    "SAITO2024-g-Tc",
+    "SAITO2024-b-Hc_unspecified",
+    "ZHENG2022-a-Br",
+    "SAITO2024-a-Mr",
+    "SAITO2024-a-Hc_unspecified",
+    "LIANG2023-a-Hcj"
+  ]
+}

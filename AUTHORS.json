@@ -1,0 +1,16 @@
+{
+  "_comment": "Author block. README, CITATION.cff, .zenodo.json and the commit identity all read from here. Supplied by the author on 2026-10-08.",
+  "authors": [
+    {
+      "name": "Joshua Chukwuemeka Ejeka",
+      "family": "Ejeka",
+      "given": "Joshua Chukwuemeka",
+      "orcid": "",
+      "email": "jejeka@uwyo.edu",
+      "affiliation": "Independent Researcher",
+      "roles": ["Conceptualization", "Methodology", "Data curation", "Validation", "Writing - original draft"],
+      "corresponding": true
+    }
+  ],
+  "collaborators": []
+}

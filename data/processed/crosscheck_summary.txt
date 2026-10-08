@@ -1,0 +1,2 @@
+Cross-check not run: no reference export at data/reference/reference_export.csv.
+The cross-check is planned for a later version; it is not part of v0.1.
