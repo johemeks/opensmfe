@@ -58,4 +58,4 @@ This is Flagship 1 of your plan. It produces the composition-process-structure-p
 5. **Cross-check and draft paper.** Compare against the text-mined database, then write the data paper from the numbers.
 6. **Ready for your check.** You verify, then we publish.
 
-*You are here: v0.1.0 verified and ready to publish (docs/PUBLISH_GUIDE.md). Steps 1 to 5 then repeat in batches until v1.0.*
+*You are here: v0.1.0 published 2026-10-08, DOI 10.5281/zenodo.23248499. Steps 1 to 5 then repeat in batches until v1.0.*

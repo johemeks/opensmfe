@@ -2,7 +2,7 @@
 
 *Plain-language note: what is left between this seed batch and the v1.0 release with a DOI, roughly in order.*
 
-1. **Publish v0.1.0** (you, 25 minutes, docs/PUBLISH_GUIDE.md).
+1. **Publish v0.1.0.** Done 2026-10-08: Zenodo DOI 10.5281/zenodo.23248499 (all versions), 10.5281/zenodo.23248500 (v0.1.0).
 2. **Optional upgrade of v0.1 rows to grade A.** Record the measurement temperature and coercivity type from each paper's Methods section in the verification log.
 3. **Choose a cross-check database** (later version). Then run `code/05_crosscheck.py` against its export.
 4. **Open a full-text route.** Many publishers block automated reading, so the fastest path is: you download the PDFs of open-access papers in the queue (all free), drop them in a shared folder, and Claude extracts from the PDFs. The DOE public-access (OSTI) manuscripts are a U.S.-funded source worth prioritizing.

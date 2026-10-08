@@ -1,5 +1,7 @@
 # Publish guide: OpenSmFe
 
+*Status: done for v0.1.0 on 2026-10-08. Concept DOI 10.5281/zenodo.23248499 (all versions); version DOI 10.5281/zenodo.23248500. For the next version, repeat Step 3 with a new tag; Zenodo adds it under the same concept DOI.*
+
 *Plain-language note: the click-by-click steps to put OpenSmFe online and get its permanent citation number (DOI). Verification is done, so you can do this now. The build machine cannot reach GitHub or Zenodo to upload on your behalf, so these steps are yours. Total time is about 25 minutes.*
 
 ## Copy-ready text

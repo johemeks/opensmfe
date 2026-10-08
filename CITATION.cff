@@ -10,6 +10,14 @@ authors:
     email: "jejeka@uwyo.edu"
     affiliation: "Independent Researcher"
 license: CC-BY-4.0
+doi: "10.5281/zenodo.23248499"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23248499"
+    description: "Concept DOI: all versions of OpenSmFe (resolves to the latest)"
+  - type: doi
+    value: "10.5281/zenodo.23248500"
+    description: "Version DOI: OpenSmFe v0.1.0"
 repository-code: "https://github.com/johemeks/opensmfe"
 keywords:
   - permanent magnets

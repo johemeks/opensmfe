@@ -1,6 +1,8 @@
 # OpenSmFe
 
-**Status: v0.1.0 seed release, 2026-10-08.** Every value has been verified by the author against its source paper. This release is a seed batch that demonstrates the schema and method; the planned v1.0 will cover the wider open-access literature.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23248499.svg)](https://doi.org/10.5281/zenodo.23248499)
+
+**Status: v0.1.0 seed release, 2026-10-08.** Archived on Zenodo: [10.5281/zenodo.23248499](https://doi.org/10.5281/zenodo.23248499) (all versions); v0.1.0 specifically: [10.5281/zenodo.23248500](https://doi.org/10.5281/zenodo.23248500). Every value has been verified by the author against its source paper. This release is a seed batch that demonstrates the schema and method; the planned v1.0 will cover the wider open-access literature.
 
 ## What this is, in plain language
 
@@ -70,7 +72,7 @@ A cross-check against a text-mined magnetic-materials database is planned for a 
 
 - Code: MIT.
 - Data and documentation: CC BY 4.0.
-- To cite the database, see `CITATION.cff`. Please also cite the original papers for any values you use.
+- To cite the database: Ejeka, J. C. (2026). *OpenSmFe: an open, processing-aware database of samarium-iron(-nitrogen) permanent magnet properties* (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.23248500. Use the all-versions DOI 10.5281/zenodo.23248499 to cite the project in general. Please also cite the original papers for any values you use.
 
 ## Maintainer
 
