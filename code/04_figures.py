@@ -53,6 +53,7 @@ def route(s):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--final", action="store_true")
+    ap.add_argument("--paper", action="store_true", help="journal version: no in-figure title or footnote (the caption carries them)")
     a = ap.parse_args()
     samples = {r["sample_id"]: r for r in csv.DictReader((P / "opensmfe_samples.csv").open(encoding="utf-8"))}
     meas = [m for m in csv.DictReader((P / "opensmfe_measurements.csv").open(encoding="utf-8"))
@@ -92,17 +93,19 @@ def main():
     handles.append(plt.Line2D([], [], marker="o", ls="", markersize=8, markerfacecolor=SURF,
                               markeredgecolor=INK2, markeredgewidth=1.6, label="grade C (not room temp.)"))
     ax.legend(handles=handles, loc="lower right", frameon=False, fontsize=8, labelcolor=INK2)
-    fig.suptitle("Published Sm-Fe-N coercivity by processing route", x=0.01, ha="left", fontsize=11, color=INK)
-    ax.set_title(f"OpenSmFe v0.1 seed batch, {len(rows)} values", loc="left", fontsize=8.5, color=INK2)
-    fig.text(0.01, 0.01, f"Sources: {len({m['source_id'] for m in meas})} open-access papers; each value verified by the author against its source. 1 kOe = 79.58 kA/m.",
+    if not a.paper:
+        fig.suptitle("Published Sm-Fe-N coercivity by processing route", x=0.01, ha="left", fontsize=11, color=INK)
+        ax.set_title(f"OpenSmFe v0.1 seed batch, {len(rows)} values", loc="left", fontsize=8.5, color=INK2)
+    if not a.paper:
+        fig.text(0.01, 0.01, f"Sources: {len({m['source_id'] for m in meas})} open-access papers; each value verified by the author against its source. 1 kOe = 79.58 kA/m.",
              fontsize=7.5, color=INK2)
     if not a.final:
         fig.text(0.5, 0.5, "DRAFT", fontsize=70, color="#d0cfca", alpha=0.35, ha="center", va="center",
                  rotation=20, zorder=0)
-    fig.tight_layout(rect=(0, 0.03, 1, 1))
+    fig.tight_layout(rect=(0, 0 if a.paper else 0.03, 1, 1))
     F.mkdir(parents=True, exist_ok=True)
-    for ext in ("png", "svg"):
-        fig.savefig(F / f"fig1_coercivity_by_route.{ext}", facecolor=SURF)
+    for ext in ("png", "svg", "pdf"):
+        fig.savefig(F / f"fig1_coercivity_by_route{'_paper' if a.paper else ''}.{ext}", facecolor=SURF)
     print("wrote", F / "fig1_coercivity_by_route.png")
 
 

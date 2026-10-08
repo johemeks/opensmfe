@@ -1,0 +1,10 @@
+date,source_id,meas_or_sample,event,category,detail
+2026-10-08,LIANG2023,LIANG2023-a,quote replaced,paraphrase_replaced,First-draft evidence was a paraphrase; replaced by verbatim abstract sentence.
+2026-10-08,LIANG2023,LIANG2023-b,quote replaced,paraphrase_replaced,First-draft evidence was a paraphrase; replaced by verbatim abstract fragment.
+2026-10-08,LIANG2023,LIANG2023-c,quote replaced,paraphrase_replaced,First-draft evidence was a paraphrase; replaced by verbatim abstract sentence.
+2026-10-08,LIANG2023,LIANG2023-a,property reclassified,property_reclassified,Verbatim text reads iHc; property changed from Hc_unspecified to Hcj.
+2026-10-08,LIANG2023,LIANG2023-c,property reclassified,property_reclassified,Verbatim text reads iHc; property changed from Hc_unspecified to Hcj.
+2026-10-08,SAITO2024,SAITO2024-g,evidence re-sourced,wrong_sentence,Value correct but first-draft quote was a general statement; re-sourced to the sentence reporting the thermomagnetic measurement (Fig. 3b).
+2026-10-08,LIANG2023,LIANG2023-a,temperature field corrected,field_corrected,First draft assumed room temperature; the abstract does not state it; changed to not stated.
+2026-10-08,LIANG2023,LIANG2023-b,temperature field corrected,field_corrected,First draft assumed room temperature; the abstract does not state it; changed to not stated.
+2026-10-08,YE2024,YE2024-a,metadata completed,metadata_completed,Author list added from DOAJ API record.
