@@ -9,6 +9,7 @@ authors:
     given-names: "Joshua Chukwuemeka"
     email: "jejeka@uwyo.edu"
     affiliation: "Independent Researcher"
+    orcid: "https://orcid.org/0009-0005-5885-5073"
 license: CC-BY-4.0
 doi: "10.5281/zenodo.23248499"
 identifiers:
@@ -27,3 +28,15 @@ keywords:
   - materials database
   - processing-structure-property
   - coercivity
+references:
+  - type: article
+    title: "OpenSmFe: An Open, Processing-Aware and Comparability-Graded Database of Samarium-Iron(-Nitrogen) Permanent-Magnet Properties"
+    authors:
+      - family-names: "Ejeka"
+        given-names: "Joshua Chukwuemeka"
+        orcid: "https://orcid.org/0009-0005-5885-5073"
+    year: 2026
+    publisher:
+      name: "Zenodo"
+    doi: "10.5281/zenodo.23248860"
+    notes: "Preprint describing this database"

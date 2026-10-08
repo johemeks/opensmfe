@@ -5,10 +5,16 @@
       "name": "Joshua Chukwuemeka Ejeka",
       "family": "Ejeka",
       "given": "Joshua Chukwuemeka",
-      "orcid": "",
+      "orcid": "0009-0005-5885-5073",
       "email": "jejeka@uwyo.edu",
       "affiliation": "Independent Researcher",
-      "roles": ["Conceptualization", "Methodology", "Data curation", "Validation", "Writing - original draft"],
+      "roles": [
+        "Conceptualization",
+        "Methodology",
+        "Data curation",
+        "Validation",
+        "Writing - original draft"
+      ],
       "corresponding": true
     }
   ],

@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23248499.svg)](https://doi.org/10.5281/zenodo.23248499)
 
-**Status: v0.1.0 seed release, 2026-10-08.** Archived on Zenodo: [10.5281/zenodo.23248499](https://doi.org/10.5281/zenodo.23248499) (all versions); v0.1.0 specifically: [10.5281/zenodo.23248500](https://doi.org/10.5281/zenodo.23248500). Every value has been verified by the author against its source paper. This release is a seed batch that demonstrates the schema and method; the planned v1.0 will cover the wider open-access literature.
+**Status: v0.1.0 seed release, 2026-10-08.** Archived on Zenodo: [10.5281/zenodo.23248499](https://doi.org/10.5281/zenodo.23248499) (all versions); v0.1.0 specifically: [10.5281/zenodo.23248500](https://doi.org/10.5281/zenodo.23248500). Described in the preprint [10.5281/zenodo.23248860](https://doi.org/10.5281/zenodo.23248860). Every value has been verified by the author against its source paper. This release is a seed batch that demonstrates the schema and method; the planned v1.0 will cover the wider open-access literature.
 
 ## What this is, in plain language
 
@@ -74,10 +74,10 @@ A cross-check against a text-mined magnetic-materials database is planned for a 
 
 - Code: MIT.
 - Data and documentation: CC BY 4.0.
-- To cite the database: Ejeka, J. C. (2026). *OpenSmFe: an open, processing-aware database of samarium-iron(-nitrogen) permanent magnet properties* (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.23248500. Use the all-versions DOI 10.5281/zenodo.23248499 to cite the project in general. Please also cite the original papers for any values you use.
+- To cite the database: Ejeka, J. C. (2026). *OpenSmFe: an open, processing-aware database of samarium-iron(-nitrogen) permanent magnet properties* (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.23248500. Use the all-versions DOI 10.5281/zenodo.23248499 to cite the project in general. To cite the method, cite the preprint: Ejeka, J. C. (2026). *OpenSmFe: An Open, Processing-Aware and Comparability-Graded Database of Samarium-Iron(-Nitrogen) Permanent-Magnet Properties*. Zenodo. https://doi.org/10.5281/zenodo.23248860. Please also cite the original papers for any values you use.
 
 ## Maintainer
 
-Joshua Chukwuemeka Ejeka, Independent Researcher (jejeka@uwyo.edu).
+Joshua Chukwuemeka Ejeka, Independent Researcher (jejeka@uwyo.edu), ORCID [0009-0005-5885-5073](https://orcid.org/0009-0005-5885-5073).
 
 Built with AI assistance (Claude) for literature search, first-draft extraction and code. The author verified every value against its source paper and approved every analytic decision. See `docs/LIMITATIONS.md` and `docs/DECISIONS.md`.

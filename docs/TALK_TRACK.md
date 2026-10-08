@@ -10,7 +10,7 @@
 
 **What it makes possible.** Researchers and manufacturers can see which processing routes give which magnet performance, with the comparability caveats attached. Even the seed batch caught a published paper reporting the same remanence two different ways.
 
-**Where it is.** On GitHub (github.com/johemeks/opensmfe), archived on Zenodo with a permanent DOI: 10.5281/zenodo.23248499.
+**Where it is.** On GitHub (github.com/johemeks/opensmfe), archived on Zenodo with a permanent DOI (10.5281/zenodo.23248499), and described in a preprint (10.5281/zenodo.23248860).
 
 ## Two-sentence version
 
