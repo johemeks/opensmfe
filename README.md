@@ -31,6 +31,7 @@ The project is built openly so that U.S. research groups and magnet makers can r
 | `data/processed/opensmfe_sources.csv` | One row per paper: DOI, license, access date |
 | `data/processed/qa_report.txt` | Quality checks and current counts |
 | `paper/figures/` | Composition, processing and property maps |
+| `paper/manuscript/` | Preprint manuscript (PDF and LaTeX), built from the data by `code/06_manuscript.py` |
 | `data/verification/verification_log.csv` | The author's value-by-value verification record |
 | `docs/CODEBOOK.md` | Every column defined, plus unit conversions and grading rules |
 | `docs/LIMITATIONS.md` | What this database cannot tell you |
@@ -51,7 +52,8 @@ The scripts run in order:
 2. `code/02_build.py` harmonizes units, grades rows and applies verification.
 3. `code/03_qa.py` runs the checks and writes `paper/stats.json`.
 4. `code/04_figures.py` draws the figures.
-5. `code/05_crosscheck.py` compares against a text-mined database.
+5. `code/05_crosscheck.py` compares against a text-mined database (not run in v0.1).
+6. `code/06_manuscript.py` rebuilds the preprint; every number in it is computed from the released files (needs pdflatex).
 
 ## How values get in
 
