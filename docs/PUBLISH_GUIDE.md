@@ -35,7 +35,7 @@
 ## Step 3. Make the release, which mints the DOI (5 min)
 
 1. On GitHub, open the repository, click **Releases** on the right, then **Draft a new release**.
-2. Click **Choose a tag** and pick `v0.1.0` (it is already there). Type `v0.1.0` as the title.
+2. Click **Choose a tag**, type `v0.1.0`, and click **Create new tag: v0.1.0 on publish**. Type `v0.1.0` as the title.
 3. In the description, paste: "Seed release of OpenSmFe: 21 values from 14 samples in 6 open-access papers, each verified by the author against its source. See README and docs/LIMITATIONS.md."
 4. Click **Publish release**.
 5. Within a few minutes, Zenodo shows a new record under **Upload** with a DOI that looks like `10.5281/zenodo.1234567`.
